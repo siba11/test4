@@ -21,6 +21,7 @@ public class Checkbox {
 List<WebElement> radiobox=driver.findElements(By.name("sex"));
 System.out.println("total radioboxes"+radiobox.size());
 radiobox.get(0).click();
+radiobox.clear();
 System.out.println("first radioboxe"+radiobox.get(0).getTagName());
 System.out.println("first radioboxe"+radiobox.get(0).getAttribute("selected"));
 driver.quit();
