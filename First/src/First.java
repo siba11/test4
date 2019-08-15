@@ -19,6 +19,7 @@ driver.findElement(By.xpath("//*[@id=\'u_0_2\']")).click();
 System.out.print(pagtitle);
 
 driver.close();
+driver.quit();
 
 	}
 }
